@@ -1,0 +1,65 @@
+.nav {
+    position: sticky;
+    top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav > input {
+  padding-left: 190px;
+  padding-right: 190px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  border: 1px solid gray;
+  font-size: 20px;
+  text-align: start;
+}
+span {
+  margin-left: 30px;
+  line-height: 50px;
+}
+span:hover {
+  border-radius: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(230, 226, 226);
+  cursor: pointer;
+}
+.border_end{
+    border-bottom: 2px solid gray;
+}
+hr{
+    display: inline-block;
+    width: 200px;
+}
+.top_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    border-radius: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px solid gray;
+    background-color: rgb(230, 226, 226);
+    cursor: pointer;
+}
+button:hover{
+    border-radius: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px solid gray;
+    background-color: rgb(197, 191, 191);
+    cursor: pointer;
+}
+iframe:hover{
+  transform: scale(1.2);
+}
